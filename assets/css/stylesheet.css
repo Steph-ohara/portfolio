@@ -69,7 +69,10 @@ p {
     font-size: 40px;
     color: white;
     text-align: center;
-    border-bottom: white;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    width: 20%;
+    margin: 0 auto 35px auto;
 }
 
 .work {
@@ -92,17 +95,19 @@ p {
     height: 500px;
     background-color: #2a607c;
     font-size: 25px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .contact-info iframe {
-    float: right;
+    float: left;
 }
 
 .contact-info address {
-    margin: 100px 0;
     line-height: 1.5;
     font-style: normal;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
