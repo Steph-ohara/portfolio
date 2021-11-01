@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 70px;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+}
+ header div ul {
+     list-style-type: none;
+ }
+
+ header div ul li {
+     display: inline-block;
+     margin-left: 25px;
+ }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    font-size: 30px;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/White\ Fluffy\ Clouds.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.content h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    border-bottom: white;
+}
+
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    background-color: #2a607c;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    background-color: #2a607c;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    background-color: #2a607c;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info iframe {
+    float: right;
+}
+
+.contact-info address {
+    margin: 100px 0;
+    line-height: 1.5;
+    font-style: normal;
+}
